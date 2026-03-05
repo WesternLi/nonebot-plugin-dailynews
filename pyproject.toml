@@ -1,7 +1,7 @@
 [project]
 name = "nonebot-plugin-dailynews"
 version = "0.1.0"
-description = "NoneBot2 每日新闻插件，定时发送到QQ群"
+description = "NoneBot2 plugin for fetching and sending daily news."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
