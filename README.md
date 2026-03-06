@@ -53,7 +53,7 @@ DAILYNEWS_CATEGORY=general
 # 申请地址：https://newsapi.org/register
 DAILYNEWS_API_KEY=
 
-# 注意：由于URL解析问题，自定义RSS源请在 config.py 中修改 DEFAULT_RSS_URLS
+# 注意：由于谷歌新闻RSS可能访问不稳定，如需自定义新闻RSS源请在 config.py 中修改 DEFAULT_RSS_URLS
 ```
 
 ## 使用
