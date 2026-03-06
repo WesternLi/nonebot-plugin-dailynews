@@ -19,6 +19,7 @@
 请先创建好python虚拟环境
 
 ```bash
+git clone https://github.com/WesternLi/nonebot-plugin-dailynews.git
 cd nonebot-plugin-dailynews
 pip install nonebot2[fastapi]
 nb adapter install nonebot-adapter-onebot
@@ -61,12 +62,12 @@ DAILYNEWS_API_KEY=
 2. 插件会在启动时自动创建定时任务
 3. 每天在指定时间自动发送新闻图片到配置的QQ群
 
-### 手动触发
-
-在群聊中发送 `/news` 即可手动触发新闻推送。
+### 使用命令
 
 ```
-/news
+/news - 手动获取新闻
+/news_test - 查看定时任务状态
+/news_init - 初始化定时任务（首次使用需发送指令开启定时推送）
 ```
 
 发送后会先回复"正在获取新闻，请稍候..."，然后发送新闻图片。

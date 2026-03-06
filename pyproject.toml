@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/nonebot-plugin-dailynews"
+Homepage = "https://github.com/WesternLi/nonebot-plugin-dailynews"
 
 [tool.nonebot]
 plugins = ["nonebot_plugin_dailynews"]
@@ -20,10 +20,3 @@ plugins = ["nonebot_plugin_dailynews"]
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools]
-package-dir = {"" = "nonebot_plugin_dailynews"}
-
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["nonebot_plugin_dailynews"]
