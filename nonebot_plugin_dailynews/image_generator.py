@@ -9,11 +9,11 @@ from .news_fetcher import NewsItem
 class ImageGenerator:
     def __init__(
         self,
-        width: int = 1200,
-        padding: int = 50,
-        line_spacing: int = 12,
-        title_size: int = 40,
-        content_size: int = 26,
+        width: int = 1400,
+        padding: int = 60,
+        line_spacing: int = 14,
+        title_size: int = 42,
+        content_size: int = 28,
     ):
         self.width = width
         self.padding = padding
