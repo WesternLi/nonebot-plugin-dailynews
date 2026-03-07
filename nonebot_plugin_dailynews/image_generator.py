@@ -55,6 +55,9 @@ class ImageGenerator:
         content_font = self._load_font(self.content_size)
         small_font = self._load_font(18)
 
+        date_str = datetime.now().strftime("%Y年%m月%d日")
+        title = f"{date_str} {title}"
+
         header_height = 120
         footer_height = 60
         item_spacing = 30
